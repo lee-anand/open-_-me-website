@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>open me💕</title>
+    <style>
+        body {
+            background-color: #ffe6e6;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+
+        #proposal-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            color: #ff6666;
+        }
+
+        p {
+            font-size: 18px;
+            color: #333;
+        }
+
+        #buttons-container {
+            margin-top: 20px;
+        }
+
+        .response-button {
+            font-size: 16px;
+            padding: 10px 20px;
+            margin: 0 10px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        #yes-button {
+            background-color: #66ff66;
+            color: #fff;
+        }
+
+        #no-button {
+            background-color: #ff6666;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="proposal-container">
+        <h1>happy propose day!!</h1>
+        <p>Dear niharika!!,</p>
+        <p>I have something to ask you.you make me the happiest person by being in my life.
+            So will you be my valentine? </p>
+
+        <div id="buttons-container">
+            <button class="response-button" id="yes-button" onclick="respondToProposal('Yes')">Yes</button>
+            <button class="response-button" id="no-button" onclick="respondToProposal('No')">No</button>
+        </div>
+    </div>
+
+    <script>
+        function respondToProposal(response) {
+            if (response === 'Yes') {
+                alert('I am so happy you said yes! 😊.I meow you❤!!');
+            } else {
+                alert('I understand.but I still meow you❤‼');
+            }
+        }
+    </script>
+
+</body>
+</html>
